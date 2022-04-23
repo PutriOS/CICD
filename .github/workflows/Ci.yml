@@ -21,7 +21,7 @@ jobs:
         run: mvn -B package --file pom.xml
 
   test:
-    name: Test API
+    name: Test API Automation
     needs: build
     runs-on: ubuntu-latest
     steps:
